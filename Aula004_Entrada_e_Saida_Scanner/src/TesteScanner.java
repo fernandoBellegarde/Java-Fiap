@@ -19,22 +19,7 @@ public class TesteScanner {
 		f.peso = sc.nextDouble();
 		System.out.println("e seu nome é " + f.nome + " tem " + f.idade + " anos " + " pesa " + f.peso + " tem sexo " + f.sexo);
 		
-		f.comer();
-		f.dormir();
-		f.estudar();
-		
-		PessoaTeste o = new PessoaTeste();
-		
-		o.nome = "Otavio";
-		o.idade = 19;
-		o.altura = 1.80f;
-		o.sexo = "M";
-		o.peso = 60;
-		o.comer();
-		o.dormir();
-		o.estudar();
-		
-		sc.close();
+		System.out.printf("Seu nome é %s e idade é %d%n", f.nome,f.idade);
 		
 	}
 
